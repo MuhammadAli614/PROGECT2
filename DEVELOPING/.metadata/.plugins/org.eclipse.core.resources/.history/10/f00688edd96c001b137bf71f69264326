@@ -1,0 +1,25 @@
+package constructor;
+
+public class Testoffice {
+
+	public static void main(String[] args) {
+     Address address = new Address();
+     Address address = new Address();
+     address.setStreetAddress("205 Ocean Ave");
+     System.out.println(address.getStreetAddress());
+     address.setStreetAddress("105occean Ave");
+     address.setUnit('A');
+     address.setCity("Queens");
+     address.setState("NY");
+     System.out.println(address.getStreetAddress()+" "+address.getUnit()+","+ZipCode: "+" );
+                         address.getCity()+ ",State: " +address.getState());
+      office office = new Office();
+      office.setAddress(new Address("205 Occean Ave",'H', 11104,"Queens","NY"));
+      office.setOfficeName("AlNeuronTech");
+      System.out.println(office.getAddress().getStreetAddress()+" ""
+      		 office.getAddress().getUnit()+" "+
+      		office.getAddress().getZipCode()+" "+
+      			office.getAddress	
+	}
+
+}

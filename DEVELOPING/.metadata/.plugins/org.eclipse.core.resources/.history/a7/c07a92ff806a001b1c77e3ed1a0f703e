@@ -1,0 +1,17 @@
+package classAndObject;
+
+public class TestHouse {
+
+	public static void main(String[] args) {
+		int num1 = 10;
+		System.out.println("num1");
+    House myHouse= new House();
+    String myHouseName = "WhiteHouse";
+    String yourhouse = new String("Downing Street");
+    
+     myHouse.LivingHouse();
+     myHouse.Kitchen();
+	}
+
+}
+ 

@@ -1,0 +1,24 @@
+package constructor;
+
+public class Address {
+			
+		public String streetAddress = "101 Ocean Ave";
+	public char unit = 'C';
+	public int zipcode = 11209;
+	public String city = "Brooklyn";
+	public String state = "New York";
+	//Constractor1
+	public Address() {}
+	
+	public Address(String streetAddress, char unit, int zipcode, String city, String state) {
+	
+         this.streetAddress = streetAddress;
+         this.unit = unit;
+         this.zipcode=zipcode;
+         this.city = city;
+         this.state = state;
+}
+	public String getStreetAddress() {
+	            return StreetAddress;
+	}
+}

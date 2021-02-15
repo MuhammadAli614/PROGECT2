@@ -1,0 +1,13 @@
+package AccessSpacifaier;
+
+import classAndObject.House;
+
+public class TestOffice {
+
+	public static void main(String[] args) {
+      Calculator cal = new Calculator();
+      int additionResult = cal.addition(10, 100);
+      
+	}
+
+}

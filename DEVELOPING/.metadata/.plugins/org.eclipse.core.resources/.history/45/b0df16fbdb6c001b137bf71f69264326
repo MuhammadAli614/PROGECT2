@@ -1,0 +1,10 @@
+package staticAndNonStatic;
+
+public class DriveWay {
+	int driveWaySize;
+	
+	public void setDriveWaySize(int driveWaySize) {
+		this.driveWaySize = driveWaySize;
+	}
+
+}

@@ -1,0 +1,15 @@
+package staticAndNonStatic;
+
+public class TestDriveWay {
+	public static void main(String[] args) {
+		DriveWay munib = new DriveWay();
+		munib.setDriveWaySize(6);
+		System.out.println("Munib's Drive Way Size: "+ munib.driveWaySize);
+		
+		DriveWay munib = new DriveWay();
+		munib.setDriveWaySize(6);
+		System.out.println("Munib's Drive Way Size: "+ munib.driveWaySize);
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package constructor;
+
+public class Testoffice {
+
+	public static void main(String[] args) {
+     Address address = new Address();
+     address.set
+  
+	}
+
+}

@@ -1,0 +1,13 @@
+package constructor;
+
+public class office {
+	public Address address = null;
+	public String officeName;
+	public int n8mberOfEmployew;
+	
+	public Office() {}
+	public Office(Address address) {
+		this.address = address;
+	}
+
+}

@@ -1,0 +1,14 @@
+package classAndObject;
+
+public class TestApartment {
+
+	public static void main(String[] args) {
+		int num = 20;
+		System.out.println("num");
+    Apartment myApartment = new Apartment();
+    myApartment.LivingRoom();
+    myApartment.kitchen();
+    myApartment.taress();
+	}
+
+}
